@@ -1,0 +1,4 @@
+COMPONENT=MyMainAppC
+CFLAGS += -DTOSH_DATA_LENGTH=70
+include $(TINYOS_ROOT_DIR)/Makefile.include
+
